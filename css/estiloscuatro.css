@@ -119,4 +119,58 @@ body{
     position: absolute;
     z-index: 11
 }
-
+.animate0{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:flash; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+}
+.animate1{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:backInDown; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 2s; /*despues de la otra animacion*/
+}
+.animate2{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:backInLeft; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 4s; /*despues de la otra animacion*/
+}
+.animate3{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:backInRight; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 6s; /*despues de la otra animacion*/
+}
+.animate4{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:backInUp; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 0s; /*despues de la otra animacion*/
+}
+.animate5{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:bounceInDown; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 10s; /*despues de la otra animacion*/
+}
+.animate6{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 12s; /*despues de la otra animacion*/
+}
+.animate7{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:bounceInRight; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 14s; /*despues de la otra animacion*/
+}

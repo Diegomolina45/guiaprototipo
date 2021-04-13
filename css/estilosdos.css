@@ -140,3 +140,135 @@ body{
     position: absolute;
     z-index: 19
 }
+.animate0{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:backInDown; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+}
+.animate{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:flash; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 2s; /*despues de la otra animacion*/
+}
+.animate2{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:pulse; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 4s; /*despues de la otra animacion*/
+}
+.animate3{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:rubberBand; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 6s; /*despues de la otra animacion*/
+}
+.animate4{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:swing; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 8s; /*despues de la otra animacion*/
+}
+.animate5{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:wobble; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 10s; /*despues de la otra animacion*/
+}
+.animate6{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:jello; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 12s; /*despues de la otra animacion*/
+}
+.animate7{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:backInDown; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 14s; /*despues de la otra animacion*/
+}
+.animate8{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:backInLeft; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 16s; /*despues de la otra animacion*/
+}
+.animate9{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:backInRight; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 18s; /*despues de la otra animacion*/
+}
+.animate10{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:backInUp; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 20s; /*despues de la otra animacion*/
+}
+.animate11{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:bounceInDown; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 22s; /*despues de la otra animacion*/
+}
+.animate12{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 24s; /*despues de la otra animacion*/
+}
+.animate13{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:bounceInRight; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 26s; /*despues de la otra animacion*/
+}
+.animate14{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:bounceInUp; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 28s; /*despues de la otra animacion*/
+}
+.animate15{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:fadeInDown; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 30s; /*despues de la otra animacion*/
+}
+.animate16{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 32s; /*despues de la otra animacion*/
+}
+.animate17{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:fadeInRight; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 34s; /*despues de la otra animacion*/
+}
+.animate18{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:fadeInTopRight; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 36s; /*despues de la otra animacion*/
+}

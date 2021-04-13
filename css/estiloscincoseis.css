@@ -54,4 +54,51 @@ h1{
 .cajader{
 	background-color: #404042;
 }
-
+.animate0{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:backInDown; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+}
+.animate1{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:flash; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 2s; /*despues de la otra animacion*/
+}
+.animate2{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:pulse; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 4s; /*despues de la otra animacion*/
+}
+.animate3{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:rubberBand; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 6s; /*despues de la otra animacion*/
+}
+.animate4{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:swing; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 8s; /*despues de la otra animacion*/
+}
+.animate5{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:wobble; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 10s; /*despues de la otra animacion*/
+}
+.animate6{
+	display: inline-block;
+  	margin: 0 0.5rem;
+	animation:jello; /* referring directly to the animation's @keyframe declaration */
+ 	animation-duration: 2s; /* don't forget to set a duration! */
+	animation-delay: 12s; /*despues de la otra animacion*/
+}
